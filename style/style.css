@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+  --tt-menu-color: #c4c4cc;
+  --tt-heading-color: #e1e1e6;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  font-size: 1.6rem;
+}
+
+#menu {
+  position: absolute;
+  display: flex;
+  gap: 4.3rem;
+  top: 4.3rem;
+  left: 7.2rem;
+}
+
+#menu a {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: var(--tt-menu-color);
+  text-decoration: none;
+  list-style: none;
+}
+
+#menu a:focus {
+  font-weight: 700;
+  color: white;
+}
+
+.home {
+  background-image: url("../assets/mountains-universe-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 2.4rem;
+}
+
+.home h1 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: var(--tt-heading-color);
+}
+
+#buttonHome {
+  width: 19.5rem;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  padding: 1.2rem 3.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#buttonHome:hover {
+  background: #ffffff;
+  color: #02799d;
+  font-weight: 700;
+  transition: ease 300ms;
+}
+
+.universe {
+  background-image: url("../assets/mountains-universe-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.universe h1 {
+  color: var(--tt-heading-color);
+  font-weight: 700;
+  font-size: 4.8rem;
+  margin-left: 10.2rem;
+  line-height: 6.9rem;
+}
+
+.universe p {
+  color: var(--tt-heading-color);
+  width: 64.8rem;
+  height: 21rem;
+  margin-left: 10.2rem;
+
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.9rem;
+}
+
+.exploration {
+  background-image: url("../assets/mountains-universe-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.exploration h1 {
+  color: var(--tt-heading-color);
+  font-weight: 700;
+  font-size: 4.8rem;
+  margin-left: 10.2rem;
+  line-height: 6.9rem;
+}
+
+.exploration p {
+  color: var(--tt-heading-color);
+  width: 64.8rem;
+  height: 17.5rem;
+  margin-left: 10.2rem;
+
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.9rem;
+}
